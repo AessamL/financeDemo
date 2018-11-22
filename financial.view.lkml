@@ -96,4 +96,7 @@ view: financial {
     type: count
     drill_fields: []
   }
+  measure: sum {
+    type: sum
+  }
 }
