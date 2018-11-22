@@ -96,5 +96,9 @@ view: financial {
     type: count
     drill_fields: []
   }
+  measure: grossProfit {
+    type: sum
+    sql: ${__sales_} ;;
+  }
 
 }
