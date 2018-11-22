@@ -96,7 +96,5 @@ view: financial {
     type: count
     drill_fields: []
   }
-  measure: average {
-    type: average
-  }
+
 }
